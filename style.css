@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#ds {
+    width: 100%;
+}
+.doc1 {
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans';
+    text-align: start;
+    padding: 0 20%;
+    width: 100%;
+    
+}
+.bar {
+    font-size: 1em;
+    text-align: left;
+    padding-top: 3%;
+}
+.about,.achieve {
+    padding-left: 3%;
+}
+.header {
+    padding-top: 15%;
+    padding-bottom: 25%;
+    text-align: center;
+}
+.name{
+    font-size: 3em;
+}
+.doc2 {
+    font-family: 'Open Sans';
+    text-align: start;
+    padding: 0 20%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "a b"
+    "c b"
+    "d d";
+}
+.head {
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+.m1 {
+    grid-area: a;
+    padding-top: 15%;
+}
+.m2 {
+    grid-area: c;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+.image {
+    grid-area: b;
+    width: 85%;
+    padding-top: 25%;
+    padding-bottom: 15%;
+    padding-left: 30%;
+}
+.buttons {
+    grid-area: d;
+    text-align: center;
+    padding-bottom: 10%;
+}
+.learn {
+    background-color: lightgray !important;
+    width: 160px !important;
+}
+.videos {
+    background-color: red !important;
+}
+.books {
+    background-color: rgb(255, 166, 0) !important;
+}
+.doc3 {
+    background-color: black;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+.doc4 {
+    padding: 5% 20% 8% 20%;
+    width: 100%;
+}
+.doc5 {
+    background-color: black;
+    color: white;
+    padding: 5% 20% 5% 20%;
+    width: 100%;
+    display: grid;
+    font-size: 0.8em;
+    grid-template-columns: 380px 10px 1fr 10px 2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "a g b h c";
+}
+.x1 {
+    grid-area: a;
+}
+.x2 {
+    grid-area: b;
+}
+.x3 {
+    grid-area: c;
+}
+.h5{
+    font-weight: bold !important;
+}
+.blue1 {
+    color: rgb(55, 138, 233) !important;
+}
+.vert1 {
+    grid-area: g;
+    border-left: 1px solid white;
+    height: 100px;
+}
+.vert2 {
+    grid-area: h;
+    border-left: 1px solid white;
+    height: 100px;
+}
